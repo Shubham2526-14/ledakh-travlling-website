@@ -2225,7 +2225,7 @@ body.tt-magic-cursor #magic-cursor {
   visibility: visible;
 }
 .calendar-wrapper .calendar-dates .date.today.disabled::before {
-  background-color: rgba(var(--primary-color1-opc), 0.5);
+  background-color: var(--primary-color1);
 }
 .calendar-wrapper .calendar-dates .date.today.disabled .price,
 .calendar-wrapper .calendar-dates .date.today.disabled del {
